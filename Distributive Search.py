@@ -23,6 +23,7 @@ filenames = []
 
 # UDF
 
+
 def Document_Preprocessing(path,readfile):
     """Reads a document, processes it, and stores it as a new file"""
 

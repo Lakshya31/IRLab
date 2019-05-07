@@ -1,0 +1,1 @@
+modemtxt                                       modem type legend vfc k vbisk vfast class v ccitt v va ccitt vk vbis vb  ccitt vbis vt  vterbo v k itutss v u robotics veverything vf k itutss v k vfast class                                       
