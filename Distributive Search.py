@@ -28,7 +28,7 @@ def Document_Preprocessing(path,readfile):
     """Reads a document, processes it, and stores it as a new file"""
 
     f = open(path+"\\"+readfile, "r")
-    writefile = path+"_processed_"+readfile
+    writefile = path+"^processed^"+readfile
     text = f.read()
     f.close()
 
@@ -80,7 +80,7 @@ def Create_Vocabulary(path):
 
     print("Creating Vocabulary for",path)
     for a in filenames:
-        f = open(repository_path+"\\"+path+"\\"+path+"_processed_"+a, "r")
+        f = open(repository_path+"\\"+path+"\\"+path+"^processed^"+a, "r")
         line = f.read()
         words = nltk.tokenize.word_tokenize(line)
 
@@ -91,11 +91,16 @@ def Create_Vocabulary(path):
             elif words[i] in Vocab:
                 index = Vocab.index(words[i])
                 for j in range(len(Vocab_Docs[index])):
-                    if Vocab_Docs[index][j][0] == path+"_"+a:
+                    if Vocab_Docs[index][j][0] == path+"^"+a:
                         Vocab_Docs[index][j][1] += 1
                         break
                 else:
                     Vocab_Docs[index].append([path+"_"+a, 1])
+    f = open(repository_path + "\\" + path + "\\" + "inverted_index.txt", "w")
+    temp = []
+    for i in range(len(Vocab)):
+        temp.append([Vocab[i], Vocab_Docs[i]])
+    f.write(str(temp))
     print("Vocabulary Created for",path)
 
 
@@ -109,11 +114,11 @@ def Create_Dictionary(path):
         min = chr(255)
         temp = []
         for j in range(len(Vocab)):
-            if Vocab[j] < min and visited[j] == 0:
+            if Vocab[j] <= min and visited[j] == 0:
                 min = Vocab[j]
                 min_index = j
         if min_index == -1:
-            print("error")
+            print("error",min,0 in visited)
             break
         visited[min_index] = 1
         Dict.append(Vocab[min_index])
@@ -128,16 +133,60 @@ def Create_Dictionary(path):
     f.write(str(temp_dict))
     print("Dictionary Created for", path)
 
+def Remove_Redundancy(path):
+    """Removes the preprocessed documents"""
+
+    print("Removing Redundant data for",path)
+    real_path = repository_path+"\\"+path
+    files = os.listdir(real_path)
+    for i in files:
+        if i != "inverted_index.txt":
+            os.remove(real_path+"\\"+i)
+    print("Redundant data removed for",path)
 
 def Indexing(path):
     """This function is responsible for indexing a memory location given by path"""
 
     global filenames
     filenames = os.listdir(path)
+    """
+    print("Preprocessing Docs in",path)
     for ind in range(len(filenames)):
         Document_Preprocessing(path, filenames[ind])
+    print("Preprocessed Docs in", path)
+    """
     Create_Vocabulary(path)
-    Create_Dictionary(path)
+    #Create_Dictionary(path)
+    Remove_Redundancy(path)
+
+def Combine_Indexes_New():
+    """Combines Multiple indexes into one"""
+
+    print("Combining Indexes")
+    All_Dicts = []
+    Dictionary = []
+    Index = []
+    f = [None]*len(folders)
+
+    for i in range(len(folders)):
+        f[i] = open(repository_path + "\\" + folders[i] + "\\" + "inverted_index.txt", "r")
+        All_Dicts.append(eval(f[i].read()))
+        f[i].close()
+
+    for i in range(len(folders)):
+        for j in range(len(All_Dicts[i])):
+            if All_Dicts[i][j][0] not in Dictionary:
+                Dictionary.append(All_Dicts[i][j][0])
+                Index.append(All_Dicts[i][j][1])
+            else:
+                for k in range(len(All_Dicts[i][j][1])):
+                    Index[Dictionary.index(All_Dicts[i][j][0])].append(All_Dicts[i][j][1][k])
+
+    file = open(repository_path + "\\" + "inverted_index.txt", "w")
+    temp_dict = []
+    for i in range(len(Dictionary)):
+        temp_dict.append([Dictionary[i], Index[i]])
+    file.write(str(temp_dict))
 
 
 def Combine_Indexes():
@@ -197,7 +246,7 @@ def Combine_Indexes():
 if __name__ == "__main__":
 
     start = time.time()
-
+    """
     processes = [None]*len(folders)
     for i in range(len(folders)):
         processes[i] = Process(target=Indexing, args=(folders[i],))
@@ -207,8 +256,8 @@ if __name__ == "__main__":
 
     for i in range(len(processes)):
         processes[i].join()
-
-    Combine_Indexes()
+    """
+    Combine_Indexes_New()
 
     end = time.time()
 

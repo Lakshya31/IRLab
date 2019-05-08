@@ -29,12 +29,12 @@ def reader():
 def copier():
     filenames = os.listdir(path)
 
-    for i in range(len(filenames)):
-        copyfile(path+"\\"+filenames[i],copypath+folders[i%3]+"\\"+filenames[i])
+    for i in range(300,7500,12):
+        copyfile(path+"\\"+filenames[i], copypath+folders[(i//12)%3]+"\\"+filenames[i])
     print("Copied")
 
 start = time.time()
-reader()
+#reader()
 copier()
 end = time.time()
 print("Done in", end-start, "seconds")
