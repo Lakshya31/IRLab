@@ -1,0 +1,1 @@
+ phoenix bios drive type table  type cylinder head write landing precomp zone  none none none none none none none reserved none reserved none none none none none none none none none  

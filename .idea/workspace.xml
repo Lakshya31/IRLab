@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9306746-9d2c-4163-9f5e-8fdd9d2a0933" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TextMover.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Distributive Search.py" beforeDir="false" afterPath="$PROJECT_DIR$/Distributive Search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/inverted_index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f2/inverted_index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/inverted_index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/inverted_index.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Distributive Search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2257">
-              <caret line="75" selection-start-line="75" selection-end-line="75" />
+            <state relative-caret-position="83">
+              <caret line="199" selection-start-line="199" selection-end-line="199" />
               <folding>
                 <element signature="e#19#30#0" expanded="true" />
               </folding>
@@ -84,8 +86,8 @@
         <option value="$PROJECT_DIR$/Probabilistic Model.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$USER_HOME$/Desktop/Projects/IR/Information-Retrieval/Evaluation 2/handling_functions.py" />
-        <option value="$PROJECT_DIR$/Distributive Search.py" />
         <option value="$PROJECT_DIR$/TextMover.py" />
+        <option value="$PROJECT_DIR$/Distributive Search.py" />
       </list>
     </option>
   </component>
@@ -394,14 +396,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49966952" visible="true" weight="0.1923621" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49966952" visible="true" weight="0.1923621" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -523,8 +524,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Distributive Search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2257">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="83">
+          <caret line="199" selection-start-line="199" selection-end-line="199" />
           <folding>
             <element signature="e#19#30#0" expanded="true" />
           </folding>

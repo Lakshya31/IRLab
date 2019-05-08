@@ -78,6 +78,7 @@ def Document_Preprocessing(path,readfile):
 def Create_Vocabulary(path):
     """Creates Vocabulary"""
 
+    print("Creating Vocabulary for",path)
     for a in filenames:
         f = open(repository_path+"\\"+path+"\\"+path+"_processed_"+a, "r")
         line = f.read()
@@ -95,11 +96,13 @@ def Create_Vocabulary(path):
                         break
                 else:
                     Vocab_Docs[index].append([path+"_"+a, 1])
+    print("Vocabulary Created for",path)
 
 
 def Create_Dictionary(path):
     """Creates Dictionary from vocabulary using insertion sort"""
 
+    print("Creating Dictionary for", path)
     visited = [0]*len(Vocab)
     for i in range(len(Vocab)):
         min_index = -1
@@ -123,6 +126,7 @@ def Create_Dictionary(path):
     for i in range(len(Dict)):
         temp_dict.append([Dict[i],Dict_Docs[i]])
     f.write(str(temp_dict))
+    print("Dictionary Created for", path)
 
 
 def Indexing(path):
@@ -135,9 +139,11 @@ def Indexing(path):
     Create_Vocabulary(path)
     Create_Dictionary(path)
 
+
 def Combine_Indexes():
     """Combines Multiple indexes into one"""
 
+    print("Combining Indexes")
     All_Dicts = []
     Dictionary = []
     Index = []
@@ -205,4 +211,5 @@ if __name__ == "__main__":
     Combine_Indexes()
 
     end = time.time()
+
     print("\nTotal time Taken =", (end-start)-((end-start)%0.01), "seconds")
