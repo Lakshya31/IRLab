@@ -28,7 +28,7 @@ def Document_Preprocessing(path,readfile):
     """Reads a document, processes it, and stores it as a new file"""
 
     f = open(path+"\\"+readfile, "r")
-    writefile = path+"^processed^"+readfile
+    writefile = path+"_processed_"+readfile
     text = f.read()
     f.close()
 
@@ -80,7 +80,7 @@ def Create_Vocabulary(path):
 
     print("Creating Vocabulary for",path)
     for a in filenames:
-        f = open(repository_path+"\\"+path+"\\"+path+"^processed^"+a, "r")
+        f = open(repository_path+"\\"+path+"\\"+path+"_processed_"+a, "r")
         line = f.read()
         words = nltk.tokenize.word_tokenize(line)
 
@@ -91,7 +91,7 @@ def Create_Vocabulary(path):
             elif words[i] in Vocab:
                 index = Vocab.index(words[i])
                 for j in range(len(Vocab_Docs[index])):
-                    if Vocab_Docs[index][j][0] == path+"^"+a:
+                    if Vocab_Docs[index][j][0] == path+"_"+a:
                         Vocab_Docs[index][j][1] += 1
                         break
                 else:
