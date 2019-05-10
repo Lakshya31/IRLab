@@ -6,7 +6,7 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import re
 
-f = open("f1\\T1.txt","r")
+f = open("f1\\agora.txt","r")
 text = f.read()
 
 words = nltk.tokenize.word_tokenize(text)
