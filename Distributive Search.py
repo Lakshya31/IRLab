@@ -149,12 +149,12 @@ def Indexing(path):
 
     global filenames
     filenames = os.listdir(path)
-    """
+
     print("Preprocessing Docs in",path)
     for ind in range(len(filenames)):
         Document_Preprocessing(path, filenames[ind])
     print("Preprocessed Docs in", path)
-    """
+
     Create_Vocabulary(path)
     #Create_Dictionary(path)
     Remove_Redundancy(path)
