@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9306746-9d2c-4163-9f5e-8fdd9d2a0933" name="Default Changelist" comment="">
+    <list default="true" id="b9306746-9d2c-4163-9f5e-8fdd9d2a0933" name="Default Changelist" comment="Commented Shiz">
+      <change afterPath="$PROJECT_DIR$/WebCrawler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Document preproccessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Document preproccessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectReport.docx" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectReport.docx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,10 +15,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Distributive Search.py">
+        <entry file="file://$PROJECT_DIR$/WebCrawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="20">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -50,7 +51,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Distributive Search.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TextMover.py" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../IR/Information-Retrieval/Evaluation 2/handling_functions.py" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -60,7 +60,6 @@
         <option value="$USER_HOME$/Downloads/vocab_creat.py" />
         <option value="$USER_HOME$/Downloads/invert_index.py" />
         <option value="$USER_HOME$/Downloads/R Precision Comparison.py" />
-        <option value="$PROJECT_DIR$/WebCrawler.py" />
         <option value="$USER_HOME$/Downloads/Inverted Indexing.py" />
         <option value="$PROJECT_DIR$/Inverted Indexing.py" />
         <option value="$PROJECT_DIR$/invert_index.py" />
@@ -71,8 +70,9 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/TextMover.py" />
         <option value="$PROJECT_DIR$/../IR/Information-Retrieval/Evaluation 2/handling_functions.py" />
-        <option value="$PROJECT_DIR$/Distributive Search.py" />
         <option value="$PROJECT_DIR$/Document preproccessing.py" />
+        <option value="$PROJECT_DIR$/Distributive Search.py" />
+        <option value="$PROJECT_DIR$/WebCrawler.py" />
       </list>
     </option>
   </component>
@@ -163,7 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Distributive Search">
+  <component name="RunManager" selected="Python.WebCrawler">
     <configuration name="Distributive Search" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="InfoRetrieval" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -290,6 +290,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="WebCrawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="InfoRetrieval" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WebCrawler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="federated_search_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="InfoRetrieval" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -311,44 +332,23 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="handling_functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Lakshya Sharma" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../IR/Information-Retrieval/Evaluation 2" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../IR/Information-Retrieval/Evaluation 2/handling_functions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.Document preproccessing" />
       <item itemvalue="Python.Inverted Index" />
       <item itemvalue="Python.Inverted Indexing (1)" />
       <item itemvalue="Python.Distributive Search" />
       <item itemvalue="Python.Test" />
-      <item itemvalue="Python.handling_functions" />
       <item itemvalue="Python.federated_search_api" />
       <item itemvalue="Python.TextMover" />
+      <item itemvalue="Python.WebCrawler" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.WebCrawler" />
         <item itemvalue="Python.Distributive Search" />
         <item itemvalue="Python.Test" />
         <item itemvalue="Python.TextMover" />
         <item itemvalue="Python.federated_search_api" />
-        <item itemvalue="Python.handling_functions" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557511901293</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commented Shiz">
+      <created>1557561391331</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557561391331</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -390,7 +397,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993395" weight="0.31683168" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4993395" visible="true" weight="0.31683168" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -406,7 +413,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;Delimiter is '_'&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Delimiter is '_'&quot;" />
+    <MESSAGE value="Commented Shiz" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commented Shiz" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Downloads/text preproccessing.py" />
@@ -421,7 +429,6 @@
     <entry file="file://$PROJECT_DIR$/Text1.txt" />
     <entry file="file://$PROJECT_DIR$/Text_done.txt" />
     <entry file="file://$PROJECT_DIR$/Inverted Indexing.py" />
-    <entry file="file://$PROJECT_DIR$/WebCrawler.py" />
     <entry file="file://$PROJECT_DIR$/vocab.txt" />
     <entry file="file://$PROJECT_DIR$/processed_T1.txt" />
     <entry file="file://$PROJECT_DIR$/inverted_index.txt" />
@@ -450,16 +457,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../IR/Information-Retrieval/Evaluation 2/federated_search_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#89#112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../IR/Information-Retrieval/Evaluation 2/federated_search_api.py" />
     <entry file="file://$PROJECT_DIR$/TextMover.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -477,16 +475,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../IR/Information-Retrieval/Evaluation 2/handling_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1711">
-          <caret line="177" column="42" selection-start-line="177" selection-start-column="42" selection-end-line="177" selection-end-column="42" />
-          <folding>
-            <element signature="e#87#98#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../IR/Information-Retrieval/Evaluation 2/handling_functions.py" />
     <entry file="file://$PROJECT_DIR$/venv/Scripts/python.exe">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
@@ -523,8 +512,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Distributive Search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="619">
+          <caret line="254" column="21" selection-start-line="254" selection-start-column="21" selection-end-line="254" selection-end-column="21" />
+          <folding>
+            <element signature="e#19#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
