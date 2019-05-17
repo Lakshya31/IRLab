@@ -2,7 +2,240 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9306746-9d2c-4163-9f5e-8fdd9d2a0933" name="Default Changelist" comment="Commented Shiz">
+      <change beforePath="$PROJECT_DIR$/.idea/InfoRetrieval.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/InfoRetrieval.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distributive Search.py" beforeDir="false" afterPath="$PROJECT_DIR$/Distributive Search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_agora.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_alflog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_amchap2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_anar39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_anarcy2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_anime24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_anime60.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_aof2move.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_arcadian.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_asciicod.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_atarishw.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_automag.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_badlands.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_bard_x1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_bbs05rev.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_bbsrates.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_bdiff.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_bershad.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_bj01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_blowgun2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_bom-xmas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_bomb80.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_bor-stat.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_brothel.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_bust_bbs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_calculus.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_carboom.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_carnal.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_cbsolve.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_chador.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_cheapmid.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_chuckd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_ckfraud1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_cn07-13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_cn07-49.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_cn07-86.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_cn08-23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_cn08-59.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_cn08-96.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_cn09-33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_cn09-69.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_cn1-07.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_cn1-43.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_cn1-78.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_cn10-15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_cn10-51.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_cn10-90.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_cn11-34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_cn11-90.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_cn12-43.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_cn5-79.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_coldfusi.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_compconnb.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_control.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_cowz.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_credit.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_cufon5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_dark.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_dead5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_demystif.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_diesmurf.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_dlux.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_dos_err.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_drug-cia.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_dune2faq.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_eclair.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_emerald.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_ethics.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_explod4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_faq-mdma.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_fda.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_fdr-0042.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_fdr-0085.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_fdr-0152.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_fdr-0239.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_fdr-0305.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_fdr-0345.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_fdr-0432.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_ffile5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_files.bbs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_fishsong.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_fontpage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_freecard.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_fuck700.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_fww10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_gases.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_girlface.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_gpic.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_guide.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_hackbbs2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_hackrg.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_harmful.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_hellflam.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_hghlndr1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_histlyri.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_hoosier.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_howto_03.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_hunky07.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_idaho.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_imps-soc.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_inform5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_interview.3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f1/f1_processed_is02card.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f2/f2_processed_advntge.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f2/f2_processed_aio5b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f2/f2_processed_allfile1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f2/f2_processed_amiport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f2/f2_processed_anar65.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f2/f2_processed_anime00.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f2/f2_processed_anime36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f2/f2_processed_anrky05.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f2/f2_processed_apple.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_afix.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_aland.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_alt-stp.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_anar10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_anarchy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_anime12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_anime48.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_antigrv1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_apple9506.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_artcardi.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_ast500hr.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_aug96asj.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_b12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_banned.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_bbros-09.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_bbslaw2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_bbucket9210s.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_bees.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_bikelite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_blitzend.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_body.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_bomb67.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_booger.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_break1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_bulzorkr.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_cache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_caos1-3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_carding3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_cau003.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_cdlabel.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_charlie5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_chin.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_ciss3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_cn07-01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_cn07-37.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_cn07-74.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_cn08-11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_cn08-47.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_cn08-84.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_cn09-21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_cn09-57.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_cn09-93.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_cn1-31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_cn1-67.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_cn10-03.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_cn10-39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_cn10-77.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_cn11-17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_cn11-71.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_cn12-26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_cn4-84.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_coco.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_combkey.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_confindx.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_cosmos1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_crankinc.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_cshcommy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_czpgmn.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_dd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_defensed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_diagrams.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_divboom.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_donut.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_drinks.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_dsrat16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_easy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_elements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_errors.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_excuses.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_fairdice.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_fbicompu.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_fdr-0028.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_fdr-0073.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_fdr-0137.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_fdr-0206.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_fdr-0284.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_fdr-0331.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_fdr-0394.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_ferris.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_fieldman.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_firecamp.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_flyagaric.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_forts.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_fsm.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_funny.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_games93.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_getbust.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_golfcart.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_grow_pot.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_h2shoot.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_hackingenie.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_hamradio8803.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_hdcp20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_herbsmok.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_hijacksb.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_holygral.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_how2bombs2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_humanguinea.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_ibm3708k.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_im221.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_infinode.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_insults1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_iq-drugs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_jagcheat.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_jokes1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_kbush1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_kingqst3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_krill1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_laundmat.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_leathergoddess.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_list0109.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_logo_collection_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_lsd_chro.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_mac's4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_mana.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_mccabe01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/f3/f3_processed_mdma-rh.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,34 +246,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebCrawler.py">
+        <entry file="file://$PROJECT_DIR$/Distributive Search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+            <state relative-caret-position="2006">
+              <caret line="185" column="29" selection-start-line="185" selection-start-column="29" selection-end-line="185" selection-end-column="29" />
+              <folding>
+                <element signature="e#19#30#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Inverted Index.py">
+        <entry file="file://$PROJECT_DIR$/WebCrawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-              <folding>
-                <element signature="e#18#29#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="200">
+              <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Document preproccessing.py">
+        <entry file="file://$PROJECT_DIR$/Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-              <folding>
-                <element signature="e#18#29#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="40">
+              <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -86,15 +316,15 @@
         <option value="$PROJECT_DIR$/Inverted Indexing.py" />
         <option value="$PROJECT_DIR$/invert_index.py" />
         <option value="$PROJECT_DIR$/DB.py" />
-        <option value="$PROJECT_DIR$/Test.py" />
         <option value="$PROJECT_DIR$/Inverted Index.py" />
         <option value="$PROJECT_DIR$/Probabilistic Model.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/TextMover.py" />
         <option value="$PROJECT_DIR$/../IR/Information-Retrieval/Evaluation 2/handling_functions.py" />
         <option value="$PROJECT_DIR$/Document preproccessing.py" />
-        <option value="$PROJECT_DIR$/Distributive Search.py" />
         <option value="$PROJECT_DIR$/WebCrawler.py" />
+        <option value="$PROJECT_DIR$/Distributive Search.py" />
+        <option value="$PROJECT_DIR$/Test.py" />
       </list>
     </option>
   </component>
@@ -112,21 +342,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="InfoRetrieval" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InfoRetrieval" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InfoRetrieval" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -149,11 +364,26 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="InfoRetrieval" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InfoRetrieval" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InfoRetrieval" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv/Scripts/python.exe" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -185,7 +415,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Document preproccessing">
+  <component name="RunManager" selected="Python.Test">
     <configuration name="Distributive Search" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="InfoRetrieval" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,6 +441,9 @@
       <module name="InfoRetrieval" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -331,21 +564,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Document preproccessing" />
       <item itemvalue="Python.Inverted Index" />
       <item itemvalue="Python.Inverted Indexing (1)" />
       <item itemvalue="Python.Distributive Search" />
+      <item itemvalue="Python.Document preproccessing" />
       <item itemvalue="Python.Test" />
       <item itemvalue="Python.TextMover" />
       <item itemvalue="Python.WebCrawler" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Test" />
+        <item itemvalue="Python.Distributive Search" />
         <item itemvalue="Python.Document preproccessing" />
         <item itemvalue="Python.Document preproccessing" />
         <item itemvalue="Python.WebCrawler" />
-        <item itemvalue="Python.Distributive Search" />
-        <item itemvalue="Python.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -390,12 +623,12 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993395" weight="0.31683168" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993395" visible="true" weight="0.31683168" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -481,17 +714,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test.py">
+    <entry file="file://$PROJECT_DIR$/Document preproccessing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        <state relative-caret-position="140">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <element signature="e#18#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Inverted Index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="e#18#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Distributive Search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="254" column="21" selection-start-line="254" selection-start-column="21" selection-end-line="254" selection-end-column="21" />
+        <state relative-caret-position="2006">
+          <caret line="185" column="29" selection-start-line="185" selection-start-column="29" selection-end-line="185" selection-end-column="29" />
           <folding>
             <element signature="e#19#30#0" expanded="true" />
           </folding>
@@ -500,28 +746,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebCrawler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        <state relative-caret-position="200">
+          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Inverted Index.py">
+    <entry file="file://$PROJECT_DIR$/Test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="e#18#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Document preproccessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding>
-            <element signature="e#18#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="40">
+          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
         </state>
       </provider>
     </entry>

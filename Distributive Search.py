@@ -184,6 +184,7 @@ def Combine_Indexes():
     for i in range(len(Dictionary)):
         temp_dict.append([Dictionary[i], Index[i]])
     file.write(str(temp_dict))
+    print("Indexes Combined")
 
 '''
 def Combine_Indexes():
