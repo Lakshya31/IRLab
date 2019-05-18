@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Apr  2 10:06:45 2019
-
-@author: aashi
-"""
-
 import scrapy
 
 
@@ -26,13 +19,11 @@ class BrickSetSpider(scrapy.Spider):
                 'minifigs': brickset.xpath(MINIFIGS_SELECTOR).extract_first(),
                 'image': brickset.css(IMAGE_SELECTOR).extract_first(),
             }
-            
 
-        #NEXT_PAGE_SELECTOR = '.next a ::attr(href)'
+        NEXT_PAGE_SELECTOR = '.next a ::attr(href)'
         next_page = response.css(NEXT_PAGE_SELECTOR).extract_first()
         if next_page:
             yield scrapy.Request(
                 response.urljoin(next_page),
                 callback=self.parse
             )
-            
